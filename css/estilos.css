@@ -502,3 +502,14 @@ transform:translateY(0);
 }
 }
 
+button, .btn, .accordion {
+outline: none;
+-webkit-tap-highlight-color: transparent;
+}
+
+button:focus,
+.btn:focus,
+.accordion:focus {
+outline: none;
+box-shadow: none;
+}
