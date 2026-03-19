@@ -475,6 +475,20 @@ pointer-events:none;
 animation:fiesta 1.5s infinite;
 }
 
+button, .btn, .accordion {
+outline: none;
+-webkit-tap-highlight-color: transparent;
+}
+
+button:focus,
+.btn:focus,
+.accordion:focus {
+outline: none;
+box-shadow: 0 0 10px var(--color3);
+}
+
+
+
 .nombre{
 color: var(--color1);
 }
@@ -502,14 +516,3 @@ transform:translateY(0);
 }
 }
 
-button, .btn, .accordion {
-outline: none;
--webkit-tap-highlight-color: transparent;
-}
-
-button:focus,
-.btn:focus,
-.accordion:focus {
-outline: none;
-box-shadow: 0 0 10px var(--color3);
-}
